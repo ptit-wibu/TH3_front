@@ -61,8 +61,8 @@ function UserPhotos() {
     async function loadData() {
       try {
         const [userRes, photosRes] = await Promise.all([
-          fetch(`https://rgj8j9-8081.csb.app/api/user/${userId}`),
-          fetch(`https://rgj8j9-8081.csb.app/api/photo/photosOfUser/${userId}`),
+          fetch(`https://spqdtj-8081.csb.app/api/user/${userId}`),
+          fetch(`https://spqdtj-8081.csb.app/api/photo/photosOfUser/${userId}`),
         ]);
 
         if (!userRes.ok) {

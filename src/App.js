@@ -18,11 +18,11 @@ const App = (props) => {
             <TopBar />
           </Grid>
           <div className="main-topbar-buffer" />
-          <Grid item sm={3}>
+          {/* <Grid item sm={3}>
             <Paper className="main-grid-item">
               <UserList />
             </Paper>
-          </Grid>
+          </Grid> */}
           <Grid item sm={9}>
             <Paper className="main-grid-item">
               <Routes>

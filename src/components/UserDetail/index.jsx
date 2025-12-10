@@ -14,7 +14,7 @@ function UserDetail() {
     async function loadUser() {
       try {
         const res = await fetch(
-          `https://rgj8j9-8081.csb.app/api/user/${userId}`
+          `https://spqdtj-8081.csb.app/api/user/${userId}`
         );
         if (!res.ok) {
           throw new Error(`HTTP ${res.status}`);

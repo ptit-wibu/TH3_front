@@ -17,7 +17,7 @@ function UserList() {
   useEffect(() => {
     async function loadUsers() {
       try {
-        const res = await fetch("https://rgj8j9-8081.csb.app/api/user/list");
+        const res = await fetch("https://spqdtj-8081.csb.app/api/user/list");
         if (!res.ok) {
           throw new Error(`HTTP ${res.status}`);
         }
